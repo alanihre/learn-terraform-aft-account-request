@@ -10,14 +10,5 @@ module "test-group" {
     SSOUserLastName           = "Group"
   }
 
-  account_tags = {
-  }
-
-  change_management_parameters = {
-  }
-
-  custom_fields = {
-  }
-
   account_customizations_name = "test-group"
 }
