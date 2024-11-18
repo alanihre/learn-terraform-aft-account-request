@@ -1,13 +1,13 @@
-module "test-group" {
+module "test-group2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "alih+awsworkshoptestgroup@netlight.com"
-    AccountName               = "test-group"
+    AccountEmail              = "alih+awsworkshoptestgroup2@netlight.com"
+    AccountName               = "test-group2"
     ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "alih+awsworkshoptestgroup@netlight.com"
+    SSOUserEmail              = "alih+awsworkshoptestgroup2@netlight.com"
     SSOUserFirstName          = "Test"
-    SSOUserLastName           = "Group"
+    SSOUserLastName           = "Group2"
   }
 
   account_tags = {
@@ -19,7 +19,6 @@ module "test-group" {
   }
 
   custom_fields = {
-    test="test"
   }
 
   account_customizations_name = "test-group"
