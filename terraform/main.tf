@@ -19,6 +19,7 @@ module "test-group" {
   }
 
   custom_fields = {
+    test="test"
   }
 
   account_customizations_name = "test-group"
